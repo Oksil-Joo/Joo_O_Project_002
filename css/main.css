@@ -1,0 +1,111 @@
+.hidden {
+  display: none;
+}
+
+#container {
+  width: 960px;
+  margin: 0 auto;
+  padding: 0px;
+  overflow: hidden;
+}
+
+#MainCon {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+#mainImage {
+  width: 630px;
+  height: 416px;
+  background-color: #000;
+}
+#mainText {
+  width: 290px;
+  height: 416px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+#greenCon {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 940px;
+  height: 250px;
+  background-color: #eca108;
+}
+
+#greenText {
+  width: 920px;
+  height: 230px;
+  background-color: #fff;
+  padding: 10px;
+}
+
+#brewersCon {
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+}
+
+#brewersText {
+  width: 600px;
+  height: 438px;
+  background-color: #eca108;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+#brewersImage {
+  width: 300px;
+  height: 438px;
+  background-color: #000;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+#InfectCon {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+#Infect_leftImage {
+  width: 300px;
+  height: 523px;
+  background-color: #000;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#InfectText {
+  width: 300px;
+  height: 523px;
+  background-color: #eca108;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+#Infect_rightImage {
+  width: 300px;
+  background-color: #000;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+#concluCon {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+#concluTitle {
+  width: 300px;
+  height: 150px;
+  margin-left: 10px;
+  margin-top: 10px;
+  background-color: #eca108;
+}
+#concluText {
+  width: 600px;
+  height: 150px;
+  margin-left: 40px;
+  margin-top: 10px;
+  background-color: #eca108;
+}
